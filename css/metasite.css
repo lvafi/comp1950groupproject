@@ -1,1 +1,7 @@
 @import url("reset.css");
+#classes-days{
+  background-image: url("../images/classes-days-banner.png");
+  background-repeat: repeat;
+  background-position: center;
+  padding: 2em 0.8em 2em 0.8em;
+}
