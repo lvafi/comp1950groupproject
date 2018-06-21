@@ -18,6 +18,9 @@
 .classes-days-content h1 {
   margin: 5px;
 }
+body {
+  background-color: #cee0ed;
+}
 
 /* Grid Styles ------*/
 .wrapper {
@@ -44,4 +47,19 @@ main {
 }
 footer {
   grid-area: footer;
+}
+/* End Grid Style */
+
+
+/* Change layout to a mobile layout */
+@media screen and (max-width: 640px) {
+	.wrapper {
+		grid-template-columns: repeat(2, 1fr);
+		grid-template-areas:
+			"nav      nav"
+			"header   header"
+			"sidebar sidebar"
+			"main     main"
+			"footer   footer";
+	}
 }

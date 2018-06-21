@@ -7,6 +7,13 @@ Author: Mark & Ladan
 		<meta charset="utf-8">
 		<title>Comp 1950 | Group Metasite</title>
 		<link rel="stylesheet" href="css/metasite.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"> </script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+		<script>
+				$( function() {
+					$( "#accordion" ).accordion();
+				} );
+				</script>
 	</head>
 	<body>
 		<div class="wrapper">
@@ -23,10 +30,25 @@ Author: Mark & Ladan
 				<a href="#">myBcit</a>
 				<a href="#">D2l</a>
 			</nav>
-			<aside>
-				<h1>lectures</h1>
-				<h1>Resources</h1>
-				<h1>about</h1>
+			<aside id="accordion">
+					<h3>Lectures</h3>
+					<div>
+						<ul>
+								<li>1: Tools and Standards </li>
+								<li>2: HTML 5</li>
+								<li>3:Advanced CSS</li>
+								<li>4: CSS Layouts</li>
+								<li>5: Responsive design</li>
+								<li>6: CSS3</li>
+								<li>7: Javascript Frameworks</li>
+								<li>8: Server Architecture</li>
+								<li>9: Templates, Tools</li>
+								<li>10: Methodology</li>
+						</ul>
+					</div>
+
+					<h3>Resources</h3>
+					<h3>About</h3>		
 			</aside>
 			<main>
 				<article>
